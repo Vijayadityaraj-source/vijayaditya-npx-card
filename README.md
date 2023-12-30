@@ -12,5 +12,3 @@ npx vijayaditya
 ```
 
 The output will look somthing like this :
-
-![image](https://github.com/Vijayadityaraj-source/vijayaditya-npx-card/blob/main/output.png)
