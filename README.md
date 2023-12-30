@@ -12,3 +12,12 @@ npx vijayaditya
 ```
 
 The output will look somthing like this :
+
+<p align="center">
+    <img width="800" src="https://github.com/Vijayadityaraj-source/vijayaditya-npx-card/blob/main/output.png" alt="output">
+</p>
+
+<p align="center">
+    <img width="300" src="https://github.com/Vijayadityaraj-source/vijayaditya-npx-card/blob/main/viva-la-vida-watermelons.jpg" alt="vivalavida"></br>
+  Viva La Vida - Long Live Life
+</p>
