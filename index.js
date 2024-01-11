@@ -26,7 +26,6 @@ const data = {
     linkedin: chalk.gray("https://linkedin.com/in/") + chalk.blue("vijayaditya-raj-rapaka-5b2659237"),
     web: chalk.hex('#7862b2')("https://vijayaditya-portfolio.netlify.app"),
     npx: chalk.red("npx") + " " + chalk.white("vijayaditya"),
-    resume: chalk.magentaBright("https://docs.google.com/document/d/1NNR0Hh6zE3Q5nH_EUO5fpU7D9UFvGGrdFIoksZ7jsT0/edit#heading=h.hhf0fgftbi4o"),
 
     labelWork: chalk.white.bold("       Work:"),
     labelTwitter: chalk.white.bold("    Twitter:"),
@@ -53,7 +52,8 @@ const questions = [
             {
                 name: `Open my ${chalk.magentaBright.bold("Resume")}?`,
                 value: () => {
-                    console.log("\n"+`${data.labelResume}`+": "+`${data.resume}`+"\n");
+                    open("https://docs.google.com/document/d/1NNR0Hh6zE3Q5nH_EUO5fpU7D9UFvGGrdFIoksZ7jsT0/edit#heading=h.hhf0fgftbi4o");
+                    console.log("Resume opened, See you!\n");
                 }
             },
             {
